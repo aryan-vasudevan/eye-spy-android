@@ -11,7 +11,7 @@ import java.io.File
 class YoloDetector(private val context: Context) {
     private var module: Module? = null
     private val inputSize = 640
-    private val confidenceThreshold = 0.5f
+    private val confidenceThreshold = 0.6f // 60% confidence threshold
     private val nmsThreshold = 0.4f
     
     init {
